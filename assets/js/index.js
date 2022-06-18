@@ -30,21 +30,7 @@ function getUserInfo() {
             console.log(res)
             // renderAvatar() 函数来渲染头像
             renderAvatar(res.data)
-
-
-        },
-        // 无论成功还是失败，最终都会调用complete这个函数
-        // complete: function (res) {
-        //     console.log('执行了complete回调')
-        //     console.log(res)
-        //     // 在complete回调函数中，可以使用 res.responseJSON 拿到服务器响应回来的数据
-        //     if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
-        //         // 强制清空token
-        //         localStorage.removeItem('value')
-        //         // 强制跳转到登录页面
-        //         location.href = '/login.html'
-        //     }
-        // }
+        }
     })
 }
 

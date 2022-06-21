@@ -1,0 +1,31 @@
+body {
+  background-color: #f2f3f5;
+  padding: 15px;
+  margin: 0;
+}
+.layui-card-header {
+  position: relative;
+  height: 50px;
+}
+.layui-card-header #addbtn {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+.layui-btn-container .layui-btn {
+  width: 30px;
+  height: 20px;
+  margin-left: 0px;
+  margin-right: 20px;
+  font-size: 12px;
+  padding: 0;
+  line-height: 0px;
+  text-align: center;
+}
+.layui-btn-container .del {
+  background-color: orange !important;
+}
+#form-add {
+  padding-top: 20px;
+  padding-right: 30px;
+}
